@@ -390,6 +390,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7aa06cc5a2d51c141a52a61d292ab67e, type: 2}
+    - target: {fileID: 9500000, guid: d623cd35a78380d4eb0457c4e483abed, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d623cd35a78380d4eb0457c4e483abed, type: 3}
   m_IsPrefabAsset: 0
@@ -545,6 +549,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 5, y: 0, z: 0}
+--- !u!1 &1635542284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d623cd35a78380d4eb0457c4e483abed,
+    type: 3}
+  m_PrefabInternal: {fileID: 1347904351}
+--- !u!114 &1635542285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1635542284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6ce1b8b4ae78b4591ae62fd296a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1692707369
 Prefab:
   m_ObjectHideFlags: 0
